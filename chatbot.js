@@ -34,6 +34,8 @@ function generateResponse(msg){
 
     } else if (msg.includes('help me')||msg.includes('help')) {
         return "Certainly! What do you need help with?";
+    } else if (msg.includes('thank you')||msg.includes('thanks')||msg.includes('tq')||msg.includes('thank u')) {
+        return "You're welcome! 😊";
     } else if (msg.includes('sciastra') || msg.includes('what is sciastra')) {
         return "SciAstra is the biggest community of science scholars in India for IISER Aptitude test (IAT), National Entrance Screening Test (NEST), ISI, CMI, and IACS."
     }else if(msg.includes('which courses are currently available')){
