@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="chatbot.js" defer></script>
+</head>
+
+<body >
+    <button class="chatbot-toggler">
+        <i class="bi bi-chat-heart"></i>
+        <i class="bi bi-x-lg"></i>
+    </button>
+    <div class="chatbot">     
+        <header>
+            <h2>Chatbot</h2>
+            <i class="bi bi-x-lg"></i>
+        </header>
+        <ul class="chatbox">
+            <li class="chat outgoing">
+                <i class="bi bi-robot" alter="Smart_Bot"></i>
+                <p>Hello There! <br>How can i assist ypu ?</p>
+            </li>
+            
+        </ul>
+
+        <div class="chat-input">
+            <textarea placeholder="Enetr Message...." required></textarea>
+            <i id="send-btn" class="bi bi-send"></i>
+        </div>
+
+    </div>
+</body>
+</html>
